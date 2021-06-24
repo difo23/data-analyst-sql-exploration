@@ -2,5 +2,6 @@ bin/
 include/
 lib/
 owid-covid-data.csv
+.ipynb_checkpoints/
 
 

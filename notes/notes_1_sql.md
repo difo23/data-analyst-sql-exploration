@@ -20,6 +20,10 @@ draft: false
 
 ## Notes 
 
+
+
+[Github Covid19 data](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-codebook.csv)
+
 Login a Mysql por terminal:
 
 ```bash
@@ -40,23 +44,18 @@ Database changed
 ```
 
 ```
-sudo mysql -u root -p rastafari
-sudo mysql -u digdata -p Rastafari23#
+sudo mysql -u root -p ******i
+sudo mysql -u digdata -p R*******23#
 
-CREATE USER 'digdata'@'localhost' identified by 'Rastafari23#';
+CREATE USER 'digdata'@'localhost' identified by 'R*******3#';
 CREATE DATABASE portafolio;
 FLUSH PRIVILEGES;
 
 ```
 
+Cargamos nuestro dataset a la nueva base de datos
 
+Usamos MySQL Workbench for Linux para exploracion de datos con SQL. 
 
-Cargamos nuestro dataset a la nueva base de datos:
-
-```bash
-```
-
-
-
-
+<img src="/home/digdata/.config/Typora/typora-user-images/image-20210623185425985.png" alt="image-20210623185425985" style="zoom:50%;" />
 
